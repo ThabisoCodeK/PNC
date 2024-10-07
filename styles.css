@@ -1,0 +1,88 @@
+#hosts {
+  background-color: #333;
+} 
+img.popps {
+  border-radius: 50% 50% 50% 50%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  background-color: #333;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: inherit;
+}
+
+ul li ul.dropdown li {
+  display: block;
+  
+}
+ul li ul.dropdown {
+  width: 100%;
+  background: #333;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover {
+  background: #339;
+  
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body, h1{
+  background-color: #1E90FF;
+  font-family: Comic Sans MS;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: #1E90FF;
+}
+.yellow {
+  color: yellow;
+}
+header {
+  background-color: black;
+  text-align: center;
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+  font-family: Comic Sans MS;
+}
+.aboutus {
+  text-align: justify;
+}
+img {
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
